@@ -37,7 +37,7 @@ function getShiftDuration(startTime, endTime) {
     let m = Math.floor((diff % 3600) / 60);
     let s = diff % 60;
 
-    return h + ":" + String(m).padStart(2,"0") + ": " + String(s).padStart(2,"0");
+    return h + ":" + String(m).padStart(2,"0") + "::" + String(s).padStart(2,"0");
 }
 // ============================================================
 
